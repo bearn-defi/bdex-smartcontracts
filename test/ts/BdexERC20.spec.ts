@@ -34,12 +34,12 @@ describe('BdexErc20', () => {
 		signers = await ethers.getSigners();
 		wallet = signers[0];
 		other = signers[1];
-		token = await new BdexErc20WrapperFactory(wallet).deploy('Value Liquidity Provider V2','BLP-V2', TOTAL_SUPPLY)
+		token = await new BdexErc20WrapperFactory(wallet).deploy('bDEX Liquidity Provider V2','BLP-V2', TOTAL_SUPPLY)
 	})
 
 	it('name, symbol, decimals, totalSupply, balanceOf, DOMAIN_SEPARATOR, PERMIT_TYPEHASH', async () => {
 		const name = await token.name()
-		expect(name).to.eq('Value Liquidity Provider V2')
+		expect(name).to.eq('bDEX Liquidity Provider V2')
 		expect(await token.symbol()).to.eq('BLP-V2')
 		expect(await token.decimals()).to.eq(18)
 		expect(await token.totalSupply()).to.eq(TOTAL_SUPPLY)

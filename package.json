@@ -1,5 +1,5 @@
 {
-    "name": "bdex-smartconntracts",
+    "name": "bdex-smartcontracts",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
@@ -29,12 +29,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/valuedefi/value-iou"
+        "url": "git+https://github.com/bearn-defi/bdex-smartcontracts"
     },
     "bugs": {
-        "url": "https://github.com/valuedefi/value-iou/issues"
+        "url": "https://github.com/bearn-defi/bdex-smartcontracts/issues"
     },
-    "homepage": "https://github.com/valuedefi/value-iou#readme",
+    "homepage": "https://github.com/bearn-defi/bdex-smartcontracts#readme",
     "devDependencies": {
         "@ethereum-waffle/chai": "^3.2.1",
         "@nomiclabs/hardhat-etherscan": "^2.1.1",
